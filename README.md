@@ -8,6 +8,8 @@ My production-ready ePortfolio application built with the MERN stack (MongoDB, E
 
 ## 🚀 Live Demo
 - **Live Site**: [https://eportfolio.franklyn.dev/](https://eportfolio.franklyn.dev)
+- **Github Repository**: [https://github.com/dainjaruss/eportfolio](https://github.com/dainjaruss/eportfolio)
+- **Demo Video**: [https://youtu.be/e8pVFnvV9yk](https://youtu.be/e8pVFnvV9yk)
 
 ## ✨ Features
 
