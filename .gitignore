@@ -18,7 +18,6 @@ client/output/
 client/scripts/fetchApiData.js
 push_secrets.sh
 server/data/
-server/seeder.js
 
 # OS files
 .DS_Store
