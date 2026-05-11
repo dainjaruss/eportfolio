@@ -1,0 +1,27 @@
+{
+  "name": "express-dain-franklyn-week6",
+  "version": "1.0.0",
+  "description": "Express backend for Dain Franklyn's ePortfolio",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "cross-env NODE_ENV=test jest --watchAll"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1037.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "express-validator": "^7.0.1",
+    "mongoose": "^9.6.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^8.0.6"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}

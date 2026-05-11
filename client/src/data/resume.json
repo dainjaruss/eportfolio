@@ -1,0 +1,154 @@
+{
+  "coreCompetencies": [
+    "Infrastructure Automation & Configuration (Linux admin, pfSense segmentation)",
+    "Secure Development & Operations (DevSecOps principles, vulnerability assessment, secrets handling)",
+    "CI/CD & Pipeline Concepts (alerting/automation workflows, log correlation)",
+    "Automation & Scripting (Python, BASH, Shell)",
+    "Full-Stack Web Development (Next.js, Tailwind CSS, responsive UI/UX)",
+    "Cloud-Adjacent Skills (network defense, container-like isolation concepts, full packet analysis)",
+    "Agile Product Ownership (SAFe principles, backlog refinement, sprint planning)",
+    "Technical Writing & Documentation (API/CLI/GUI, DevOps/DevSecOps processes)",
+    "Database & Data Management (SQL, Microsoft Access apps)",
+    "Leadership: Cross-functional teams, process optimization, mentoring in high-stakes settings",
+    "Monitoring & Reliability: Log analysis, dashboards, incident triage/response",
+    "Communication: Clear, concise, effective written/verbal, in high-pressure environments",
+    "Teamwork: Collaboration, conflict resolution, positive reinforcement",
+    "Problem Solving: Analytical, creative, data-driven, detail-oriented",
+    "Time Management: Prioritization, multi-tasking, meeting deadlines",
+    "Adaptability: Quick learner, flexible, adjusts to changing priorities",
+    "Attention to Detail: High standards, thorough, error-free execution",
+    "Multi-tasking: Manage multiple projects, priorities, and stakeholders",
+    "Organizational Skills: Structured, methodical, keeps projects on track"
+  ],
+  "technicalProjects": [
+  {
+    "name": "Ambrielle's News App (ANA)",
+    "type": "Full-Stack Web Application",
+    "date": "2025–Present",
+    "summary": "Designed and deployed personalized news platform with AI-driven summarization, automated aggregation, user authentication, nested discussions, follows, and collections. Developed complete frontend/backend infrastructure using Next.js 15, Tailwind CSS; implemented responsive design and performance optimizations. Managed full project lifecycle: conception, development, deployment, maintenance, and scaling."
+  },
+  {
+    "name": "Paari",
+    "type": "Social Sharing Platform",
+    "date": "2025–Present",
+    "summary": "Designed and deployed social sharing platform with user authentication, nested discussions, follows, and collections. Developed complete frontend/backend infrastructure using Next.js 15, Tailwind CSS; implemented responsive design and performance optimizations. Managed full project lifecycle: conception, development, deployment, maintenance, and scaling."
+  },
+  {
+    "name": "Ubuntu-CAC",
+    "type": "Automation Toolkit",
+    "date": "2026–Present",
+    "summary": "Designed and deployed automation toolkit for using Department of Defense (DoD) Smartcards on Linux. Developed complete frontend/backend infrastructure using Next.js 15, Tailwind CSS; implemented responsive design and performance optimizations. Managed full project lifecycle: conception, development, deployment, maintenance, and scaling."
+  },
+  {
+    "name": "Meritorious Advancement Board Application",
+    "type": "Database Application",
+    "date": "2025–Present",
+    "summary": "Designed and deployed database application for the US Navy Selection Board process. Developed complete frontend/backend infrastructure using Next.js 15, Tailwind CSS; implemented responsive design and performance optimizations."
+  },
+  {
+    "name": "Security Operations & Automation Lab",
+    "type": "Self-Directed",
+    "date": "2024–Present",
+    "summary": "Deployed Security Onion for monitoring, log ingestion, SIEM dashboards, and alerting; integrated Suricata IDS, Zeek, full packet capture. Automated rule tuning, network segmentation (pfSense), and forensics workflows (Wireshark, tcpdump); mapped vulnerabilities to frameworks."
+  }
+],
+
+  "workExperience" : [
+  {
+    "title": "Assistant Project Officer, Maintenance Management Information Systems",
+    "company": "Commander, Naval Air Forces Atlantic (CNAL), Norfolk, VA",
+    "date": "May 2025 – Present",
+    "summary": "Responsible for the development and maintenance of the Maintenance Management Information System (MMIS) for the Naval Air Forces Atlantic (CNAL). Led policy, data analysis, and process improvements for enterprise maintenance systems; resolved discrepancies impacting readiness. Mentored teams and coordinated stakeholders to enhance system reliability and data quality."
+  },
+  {
+    "title": "Senior Operations Supervisor / Division Leading Petty Officer",
+    "company": "Pre-Commissioning Unit John F. Kennedy (CVN 79), Newport News, VA",
+    "date": "Aug 2024 – May 2025",
+    "summary": "Partnered with leadership/shipbuilding to design and outfit aviation facilities for $13B carrier; focused on system integration and operational efficiency. Directed 24 senior personnel; boosted readiness and quality-of-life for 175 members through process enhancements."
+  },
+  {
+    "title": "Production Control Supervisor / AIMD Quality Assurance Supervisor / Aircraft Division Leading Chief Petty Officer",
+    "company": "USS Harry S. Truman (CVN 75), Norfolk, VA",
+    "date": "Nov 2020 – Aug 2024",
+    "summary": "Managed high-availability maintenance operations for aircraft systems; sustained 95% readiness during overhaul. Automated reporting, documentation, and compliance checks; improved efficiency 20% via software/process optimizations. Led 238-person team across roles; conducted inspections, resolved 2,315 discrepancies; accountable for $5M in assets."
+  },
+  {
+    "title": "Powerplants / Maintenance Control / Airframes Branch Chief",
+    "company": "Helicopter Maritime Strike Squadron 40 (HSM-40), Jacksonville, FL",
+    "date": "Nov 2017 – Nov 2020",
+    "summary": "Led $100M powerplant/avionics shop; implemented predictive maintenance; boosted reliability 30% via data-driven insights. Oversaw maintenance control and branch operations for MH-60R helicopters; ensured procedural compliance and reliability."
+  },
+  {
+    "title": "Aviation Machinist's Mate (AD) - Various Roles",
+    "company": "HSM-37, HS-10, and USS Germantown (LSD 42)",
+    "date": "2006–2017",
+    "summary": "Served in various technical and leadership capacities within helicopter maritime strike and anti-submarine warfare squadrons, as well as shipboard operations."
+  }
+],
+
+  "education": [
+  {
+    "credential": "M.S., Computer Information Systems (Expected July 2026)",
+    "institution": "Florida Institute of Technology",
+    "details": "Coursework: Information Security Management, Advanced Programming, Database Systems, Operating Systems, Computer Networks, Web Programming; Member: Phi Kappa Phi Honor Society"
+  },
+  {
+    "credential": "B.S., Applied Sciences (2017)",
+    "institution": "Wayland Baptist University",
+    "details": null
+  },
+  {
+    "credential": "A.A., Applied Sciences (2015)",
+    "institution": "Wayland Baptist University",
+    "details": null
+  }
+],
+
+  "certifications" : [
+  {
+    "title": "SAFe Agile Product Owner",
+    "issuer": "Scaled Agile",
+    "date": "2026"
+  },
+  {
+    "title": "CompTIA Security+ (2025)",
+    "issuer": "CompTIA",
+    "date": "2005"
+  },
+  {
+    "title": "U.S.Navy Senior Enlisted Accademy Graduate",
+    "issuer": "U.S. Navy War College",
+    "date": "2022"
+  },
+  {
+    "title": "Senior Enlisted Aviation Maintenance Management",
+    "issuer": "Center for Naval Aviation Technical Training",
+    "date": "2020"
+  }
+],
+  "techTools" : [
+  {
+    "tech": "Programming and Scripting",
+    "tools": "Python, BASH/Shell, SQL, C++, JAVA, JavaScript, TypeScript, HTML"
+  },
+  {
+    "tech": "Web/Frontend Development",
+    "tools": "Next.js, Tailwind"
+  },
+  {
+    "tech": "Systems/Applications",
+    "tools": "Linux/Ubuntu admin, Microsoft Access, database apps"
+  },
+  {
+    "tech": "Other",
+    "tools": "Git, log analysis, dashboards, network segmentation"
+  }
+],
+  "hobbies" : [
+    "Volunteer: Saving Souls Foundation (2016–Present)",
+    "Basketball",
+    "Travelling",
+    "Cooking"
+  ]
+
+}

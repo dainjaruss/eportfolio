@@ -1,0 +1,181 @@
+/* ── Card primitives ─────────────────────────────────── */
+.card-media {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+  overflow: hidden;
+  background-color: var(--theme-black);
+}
+
+.card-media-img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-media-img { transform: scale(1.05); }
+
+.card-media-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(23,23,23,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-media-overlay { opacity: 1; }
+
+.card-subtitle {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted-text);
+}
+
+.card-body {
+  padding: 1rem 1.25rem;
+  flex: 1;
+}
+
+/* BaseCard uses card-content instead of card-body — same padding */
+.card-content {
+  padding: 1rem 1.25rem;
+  flex: 1;
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid var(--border);
+  background: var(--surface); /* override global <footer> rule */
+  color: var(--text);
+}
+
+/* badge/tag */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: color-mix(in srgb, var(--theme-green) 15%, transparent);
+  color: var(--theme-green);
+  border: 1px solid var(--theme-green);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.25rem;
+  font-size: 0.78rem;
+  background-color: var(--surface-muted);
+  color: var(--muted-text);
+  border: 1px solid var(--border);
+}
+
+.badge-row, .tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+/* buttons*/
+.btn {
+  padding: 0.45rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font: inherit;
+  transition: all 0.2s ease;
+  width: fit-content; /* don't stretch to fill the row */
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.btn-outline:hover { background-color: var(--surface-muted); }
+
+.toggle-btn {
+  border-color: var(--theme-green);
+  color: var(--theme-green);
+}
+
+.toggle-btn:hover {
+  background-color: color-mix(in srgb, var(--theme-green) 10%, transparent);
+}
+
+.like-btn.liked {
+  color: var(--theme-red);
+  border-color: var(--theme-red);
+  background-color: color-mix(in srgb, var(--theme-red) 10%, transparent);
+}
+
+/* project card */
+.project-card { height: 100%; }
+
+.project-desc {
+  color: var(--muted-text);
+  line-height: 1.6;
+  max-height: 4.8em;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.project-desc.expanded { max-height: 1000px; }
+
+/* resume card */
+.resume-card .card-body { font-size: 0.9rem; }
+
+.resume-date {
+  font-size: 0.82rem;
+  color: var(--muted-text);
+  margin: 0 0 0.5rem;
+}
+
+.resume-summary {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.resume-summary.expanded { max-height: 600px; }
+
+.resume-bullets {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+.resume-section-label {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.1rem;
+  color: var(--theme-green);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25rem;
+}
+
+.skills-card, .resume-section-card { margin-bottom: 1.5rem; }
+
+/* about card */
+/* gradient mask handles the fade. */
+.about-card .card-body.clamped {
+  max-height: 7rem;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+}
+
+/* light mode badge text added because of poor contrast */
+:root[data-theme="light"] .badge {
+  color: var(--theme-black);
+}

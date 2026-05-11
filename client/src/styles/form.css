@@ -1,0 +1,83 @@
+/* Contact form styles — validation feedback and layout */
+
+.contact-form {
+  max-width: 600px;
+}
+
+.contact-form .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  color: var(--text);
+  font: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--theme-green);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--theme-green) 25%, transparent);
+}
+
+/* red border on fields with validation errors */
+.contact-form input:has(+ .error-message),
+.contact-form textarea:has(+ .error-message) {
+  border-color: var(--theme-red);
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form__submit {
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  border: none;
+  background-color: var(--frm-bg);
+  color: var(--frm-btn);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form__submit:hover {
+  background-color: var(--frm-btn-hover);
+}
+
+.contact-form__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+
+/* inline field-level error */
+.error-message {
+  color: var(--theme-red);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* success banner */
+.success-banner {
+  margin-bottom: 1rem;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.25rem;
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+}
